@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 400px;
+    min-height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-area input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+}
+
+.add-contact {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.display-area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-chip {
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.37);
+    background-color: lightskyblue;
+}
+
+.contact-chip img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.remove-button {
+    background-color: none;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: red;
+}
+
+.contact-chip p {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
