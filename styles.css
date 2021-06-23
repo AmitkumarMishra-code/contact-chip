@@ -93,6 +93,9 @@ button {
     padding: 5px;
     color: red;
 }
+.remove-button:hover {
+    cursor: pointer;
+}
 
 .contact-chip p {
     font-size: 12px;
